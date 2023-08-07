@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/python3
 
 # Check if the PYFILE environment variable is set
 if [ -z "$PYFILE" ]; then
