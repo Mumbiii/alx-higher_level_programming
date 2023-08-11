@@ -1,10 +1,11 @@
 #!/usr/bin/python3
-from sys import argv
 
-# Remove the first element which is the script name
-arguments = argv[1:]
+if __name__ == "__main__":
 
-# Convert the arguments to integers and sum them
-result = sum(map(int, arguments))
+    from sys import argv
 
-print(result)
+    arguments = argv[1:]
+
+    result = sum(map(int, arguments))
+
+    print(result)
