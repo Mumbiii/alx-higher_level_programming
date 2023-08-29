@@ -2,13 +2,10 @@
 
 
 class Square:
-    """
-    This class represents a square.
-    """
+    """This class represents a square."""
 
     def __init__(self, size):
-        """
-        Initializes a Square instance.
+        """Initializes a Square instance.
 
         Args:
             size (int): The size of the square.
